@@ -31,7 +31,7 @@ btnac=Button(cal,padx=6,bd=8, fg="red",font=('arial',20,'bold'),text="AC", bg="b
 btnmult=Button(cal,padx=20,bd=8, fg="red",font=('arial',20,'bold'),text="*",bg="black", command=lambda:btnClk("*")).grid(row=1,column=1)
 
 btndiv=Button(cal,padx=20,bd=8, fg="red",font=('arial',20,'bold'),text="/",bg="black", command=lambda:btnClk("/")).grid(row=1,column=2)
-
+#aminur
 add=Button(cal,padx=20,bd=8, fg="red",font=('arial',20,'bold'),text="+",bg="black", command=lambda:btnClk("+")).grid(row=1,column=3)
 
 
